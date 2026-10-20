@@ -1,8 +1,8 @@
 # aws_iam_policy.custom_policy:
 resource "aws_iam_policy" "custom_policy" {
-  description      = "Custom role with limited permissions"
-  name             = "cmtr-otuokx4e-iam-policy"
-  path             = "/"
+  description = "Custom role with limited permissions"
+  name        = "cmtr-otuokx4e-iam-policy"
+  path        = "/"
   policy = jsonencode(
     {
       Statement = [
@@ -18,6 +18,6 @@ resource "aws_iam_policy" "custom_policy" {
       Version = "2012-10-17"
     }
   )
-  tags      = {}
-  tags_all  = {}
+  tags     = {}
+  tags_all = {}
 }
