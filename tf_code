@@ -1,0 +1,42 @@
+{
+  "version": 4,
+  "terraform_version": "1.16.5",
+  "serial": 1,
+  "lineage": "8e1195d6-18a2-3cd5-e7ee-2477d406213c",
+  "outputs": {},
+  "resources": [
+    {
+      "mode": "managed",
+      "type": "aws_iam_policy",
+      "name": "custom_policy",
+      "provider": "provider[\"registry.terraform.io/hashicorp/aws\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "arn": "arn:aws:iam::481665086355:policy/cmtr-otuokx4e-iam-policy",
+            "attachment_count": 0,
+            "delay_after_policy_creation_in_ms": null,
+            "description": "Custom role with limited permissions",
+            "id": "arn:aws:iam::481665086355:policy/cmtr-otuokx4e-iam-policy",
+            "name": "cmtr-otuokx4e-iam-policy",
+            "name_prefix": "",
+            "path": "/",
+            "policy": "{\"Statement\":[{\"Action\":[\"ec2:*\",\"s3:*\"],\"Effect\":\"Allow\",\"Resource\":\"*\"}],\"Version\":\"2012-10-17\"}",
+            "policy_id": "ANPAXAJLZ6OJZNAVDYSGD",
+            "tags": {},
+            "tags_all": {}
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "identity": {
+            "arn": "arn:aws:iam::481665086355:policy/cmtr-otuokx4e-iam-policy"
+          },
+          "private": "eyJzY2hlbWFfdmVyc2lvbiI6IjAifQ=="
+        }
+      ]
+    }
+  ],
+  "check_results": null
+}
+
